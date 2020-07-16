@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  background: rgb(255, 255, 255);
+
+  /*Pra o caso de uma não estar disponivel no tivo de despositivo ou navegador, usamos as outras*/
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  /*Serve para que os textos sejam carregados com a melhor qualidade possivel, e o important significa q ele deve se sobreora todos os outros tipos de renderização pré definidos...*/
+   text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+
+}
+
+.menu .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.menu {
+  background: rgb(113, 89, 193);
+  height: 80px;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+}
+
+.menu .content #logo {
+  margin-right: 10px;
+
+
+}
+
+ .menu .content nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  border-left: 1px solid rgb(175, 158, 230);;
+  line-height: 38px;
+
+}
+
+.menu .content nav ul li{
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(175, 158, 230);
+
+}
+
+.menu .content nav ul li:first-child{
+  
+  border-bottom: 2px solid aliceblue;
+  color:    aliceblue;
+  position: relative;
+  margin-left: 10px;
+
+
+
+}
+
+.menu .content .social {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 400px;
+}
+
+.menu .content .social  li{
+  margin-right: 20px;
+}
+
+.menu .content #login{
+  line-height: 38px;
+  background: rgb(255, 255, 255);
+  padding: 0 30px;
+  border-radius: 5px;
+  color: rgb(113, 89, 193);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+/*Section 1*/
+
+
+.sectionFirst {
+  margin-top: 10px;
+  height: 435px;
+  padding-top: 60px;
+  background:rgb(255, 255, 255);
+}
+
+.sectionFirst .section1 {
+  height: 315px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionFirst .section1 div{
+  display: block;
+  height: 300px;
+
+}
+.sectionFirst .section1 div h2{ 
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  color: #4b4b4b;
+  text-align: justify;
+  line-height: 40px;
+
+}
+.sectionFirst .section1 div p{ 
+  color: rgb(175, 158, 230);
+  display: block;
+  padding-top: 20px;
+  text-align: justify;
+  line-height: 30px;
+
+  padding-bottom: 30px;
+}
+
+.sectionFirst .section1 div a{
+  color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: rgb(113, 89, 193);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0;
+  line-height: 30px;
+
+
+}
+
+/*Section 2*/
+  .sectionSecond{
+    background: #7159c1;
+    height: 435px;
+    padding-top: 60px;
+  }
+
+.sectionSecond .section2 {
+  height: 315px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background: #7159c1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionSecond .section2 div{
+  display: block;
+
+}
+.sectionSecond .section2 div h2{ 
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  padding-top: 20px;
+  color: #ffff;
+  text-align: justify;
+  line-height: 40px;
+
+}
+
+.sectionSecond .section2 div h3{ 
+  font-weight: bold;
+  display: block;
+  padding-top: 20px;
+  color: #ddd5f8;
+  text-align: justify;
+  line-height: 40px;
+
+}
+.sectionSecond .section2 div p{ 
+  color: rgb(175, 158, 230);
+  display: block;
+  padding-top: 20px;
+  text-align: justify;
+  line-height: 30px;
+
+}
+
+/*Section 3*/
+
+.sectionThree{
+  height: 355px;
+  padding-top: 60px;
+}
+
+.sectionThree .section3 {
+height: 235px;
+margin-left: 200px;
+margin-right: 200px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+line-height: 50px;
+}
+
+.sectionThree .section3 .starter{
+display: block;
+padding: 20px;
+
+}
+.sectionThree .section3 .starter h2{ 
+font-weight: bold;
+font-size: 30px;
+display: flex;
+align-items: center;
+padding-top: 20px;
+color: #4b4b4b;
+text-align: justify;
+line-height: 40px;
+
+}
+
+
+.sectionThree .section3 .starter p{ 
+color: rgb(175, 158, 230);
+display: block;
+padding-top: 20px;
+padding-bottom: 30px;
+text-align: justify;
+line-height: 30px;
+
+}
+
+.sectionThree .section3 .starter #start{
+  color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: rgb(113, 89, 193);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 15px;
+
+}
+
+.sectionThree .section3 .bootcamp{
+  display: block;
+  padding: 20px;
+  
+  }
+  .sectionThree .section3 .bootcamp h2{ 
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  color: #4b4b4b;
+  text-align: justify;
+  line-height: 40px;
+  
+  }
+  
+  
+  .sectionThree .section3 .bootcamp p{ 
+  color: rgb(175, 158, 230);
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: justify;
+  line-height: 30px;
+  
+  }
+  
+  .sectionThree .section3 .bootcamp a{
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: rgb(113, 89, 193);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 15px;
+  
+  }
+
+  /*Section4*/
+
+  .sectionFour {
+    margin-top: 10px;
+    height: 435px;
+    padding-top: 60px;
+    background: #f1efff;
+  }
+  
+  .sectionFour .section4 {
+    height: 315px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .sectionFour .section4 div{
+    display: block;
+    height: 300px;
+  
+  }
+  .sectionFour .section4 div h2{ 
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    color: #4b4b4b;
+    text-align: justify;
+    line-height: 40px;
+  
+  }
+  .sectionFour .section4 div p{ 
+    color: rgb(175, 158, 230);
+    display: block;
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+  
+    padding-bottom: 30px;
+  }
+  
+  .sectionFour .section4 div a{
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: rgb(113, 89, 193);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+
+  /*Section 5*/
+
+  .sectionFive{
+    height: 355px;
+    padding-top: 60px;
+  }
+  
+  .sectionFive .section5 {
+    height: 235px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+
+    }
+  
+  .sectionFive .section5 .btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    height: 95px;
+    margin: 10px 0px 0px;
+    padding: 40px;
+    color: #ffffff;
+  }
+  .sectionFive .section5  h2{ 
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  color: #4b4b4b;
+  text-align: justify;
+  
+  }
+  
+  
+  .sectionFive .section5 p{ 
+  color: rgb(175, 158, 230);
+  display: block;
+  padding-top: 20px;
+  text-align: justify;
+  line-height: 30px;
+  
+  }
+  
+  .sectionFive .section5 .btn  a{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(113, 89, 193);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px;
+    padding: 40px;
+    width: 400px;
+  }
+
+
+  .sectionFive .section5 .btn a span{
+
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+   
+  }
+/*Section 6*/
+  .sectionSix {
+    height: 185px;
+    background: #7159c1;
+  }
+
+  .sectionSix .section6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .sectionSix .section6 form {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+  }
+
+  .sectionSix .section6 form strong {
+    font-weight: bold;
+    font-size: 20px;
+    color:#ffffff;
+  }
+
+  .sectionSix .section6 form p {
+    color:#ffffff;
+  }
+
+  .sectionSix .section6 form div {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+
+  }
+
+  .sectionSix .section6 form div input {
+border-style: none;
+
+  }
+  /*Fim*/
+  .footer {
+    height: 114px;
+    padding: 25px 10px;
+
+  }
+  .footer .fim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer .fim strong{
+    margin-bottom: 20px;
+    color:#666666;
+
+  }
+
+  .footer .fim p{
+    color:#666666;
+
+  }
+
+
+  
